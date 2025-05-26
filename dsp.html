@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Dan Ahmed">
+  <meta name="description" content="This page contains all advising writings created by the authors.">
+  <link rel="icon" href="https://scontent.fjed4-1.fna.fbcdn.net/v/t39.30808-6/494278523_122149432040588733_8900315776622895586_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CKwL9I6RiQgQ7kNvwEAvVIV&_nc_oc=AdlIuRNp1SvsSc_aX6JCryxRxEoak-gQIYoqqTz1OGSNLaV43GOijMUuNynIHJI3SNfyrMArDn6u96yVXXj0gMuE&_nc_zt=23&_nc_ht=scontent.fjed4-1.fna&_nc_gid=4NucTYa-uU39LXNjtpBO1A&oh=00_AfLCgq0ZfpIy7he1nkTnbEYOlC_fXZqgt1JIjTLo3J7bZQ&oe=6839ECFB" width=120 length=160 type="image/x-icon">
+  <title>DSP</title>
+</head>
+
+<body bgcolor=#566b73>
+
+<img src=https://scontent.fjed4-1.fna.fbcdn.net/v/t39.30808-6/494278523_122149432040588733_8900315776622895586_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=CKwL9I6RiQgQ7kNvwEAvVIV&_nc_oc=AdlIuRNp1SvsSc_aX6JCryxRxEoak-gQIYoqqTz1OGSNLaV43GOijMUuNynIHJI3SNfyrMArDn6u96yVXXj0gMuE&_nc_zt=23&_nc_ht=scontent.fjed4-1.fna&_nc_gid=4NucTYa-uU39LXNjtpBO1A&oh=00_AfLCgq0ZfpIy7he1nkTnbEYOlC_fXZqgt1JIjTLo3J7bZQ&oe=6839ECFB width=120 length=160> 
+<center> <h1>DSP</h1> </center><br>
+<center>The Smart Future</center>
+<br>
+<br>
+<font color =black>
+       <h2>About Us</h2>
+
+<p> Introducing D.S.P.—the new generation of web platforms! D.S.P. will serve as the main hub that connects all the branch websites we are creating. Just as Google has seamlessly integrated services like Google Maps, Google Meet, and Google Gmail into daily life, we aspire to do the same. </p>
+
+<p> <h2> Contact us: </h2>
+	<br>
+	  On Whatsapp: +966558815841 <img src="https://files.cdn-files-a.com/uploads/10510923/2000_67fa632504a20.png" width= 150 length=200>
+</p>
+<br>
+   <br>
+   <br>
+   <br>
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #566b73;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+
+        form {
+            border: 1px solid #ccc;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            height: 40px;
+            background-color: #566b73;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Log In or Sign Up</h1>
+    </header>
+    <main>
+        <form id="registration-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password"><br><br>
+            <input type="submit" value="Register">
+        </form>
+    </main>
+    <script>
+        
+        const registrationForm = document.getElementById('registration-form');
+
+       
+        registrationForm.addEventListener('submit', registerUser);
+
+       
+        function registerUser(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            const confirmPassword = document.getElementById('confirm-password').value;
+
+            
+            if (username === '' || email === '' || password === '' || confirmPassword === '') {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            if (password !== confirmPassword) {
+                alert('Passwords do not match.');
+                return;
+            }
+
+            
+            window.location.href = 'nothing';
+        }
+    </script>
+</body>
+		
+<footer>
+  <font color =black>
+    <p style="font-size:20px;">DSP
+	<br>
+	
+Copyright © 2025 All rights reserved
+<br>
+
+    </p>
+</footer>
+</html>
