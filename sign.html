@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DSP - The Smart Future</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a73e8, #155ab6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  img.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Keeps proportions but fills the square */
+    border-radius: 8px; /* Slight rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  .card {
+    background: white;
+    color: #333;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+  }
+  .card h1 {
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  .card input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  .btn-primary {
+    background: #1a73e8;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .btn-primary:hover {
+    background: #ffd600;
+    color: #333;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 214, 0, 0.5);
+  }
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+</style>
+</head>
+<body>
+  <!-- Square logo in top-left -->
+  <img class="logo" src="file:///E:/Dan/DSP/download.jpg" alt="DSP Logo">
+
+  <!-- Form card -->
+  <div class="card">
+    <h1>Log In or Sign Up</h1>
+    <form id="registration-form">
+      <input type="text" id="username" placeholder="Username">
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="password" placeholder="Password">
+      <input type="password" id="confirm-password" placeholder="Confirm Password">
+      <br><br>
+      <a href="webs.html" target="_blank">
+        <button type="button" class="btn-primary">Get Started</button>
+      </a>
+    </form>
+  </div>
+</body>
+</html>
